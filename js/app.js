@@ -12,7 +12,7 @@ $.ajax({
   cache: false,
   success: function(data) {
     $(data).each(function(index, value){
-      console.log(value.title);
+      console.log(value.keyword);
     });
     console.log(data);
   },
