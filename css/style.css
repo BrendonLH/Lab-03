@@ -1,0 +1,24 @@
+@import '/css/reset.css';
+
+
+body {
+    text-align: center;
+}
+img {
+    width: 100px;
+    border: 5px solid rgb(248, 224, 228);
+}
+li {
+    display: inline;
+}
+
+ul {
+    margin-top: 50px;
+}
+nav {
+    text-align: center;
+    border: 1px inset gray;
+    max-width: 100px;
+    background-color: lightgray;
+    margin: auto;
+}
