@@ -3,6 +3,7 @@ Lab-02 jquery selecotrs and events
 
 ## User Stories
 
+## MVP
 1. As a user, I want to view the images on the page so that I can browse the photo collection.
 2. As a user, I want to be able to filter the images so that I can view only images that match a keyword.
 3. As a user, I want a simple, clean looking UI so that my photo gallery clearly displays the images in a grid like pattern.
@@ -39,8 +40,8 @@ Actual time needed to complete: 1.5hrs
 
 Estimate of time needed to complete: 2 hours
 
-Start time: 
+Start time: 6:30pm
 
-Finish time: 
+Finish time: 8:52
 
-Actual time needed to complete: 
+Actual time needed to complete: 2hrs

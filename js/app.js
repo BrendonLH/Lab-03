@@ -3,16 +3,17 @@
 //  get data using Ajax
 $(document).ready(function(){
   $.ajax({
-    url: './data/page-01.json',
+    url: '../data/page-01.json',
     dataType: 'json',
     type: 'get',
     cache: false,
     success: function(data) {
       data.forEach(picture => {
         let newPics = new constructor(picture);
-
-        $('p#picList').append(`<img src='${newPics.image}'>`);
-        $('p#picList').append(`<li>${newPics.title}</li>`);
+        let img = $(`<img src='${newPics.image}'>`).addClass(newPics.keyword);
+        let title = $(`<li>${newPics.title}</li>`).addClass(newPics.title);
+        $('ul').append(img);
+        $('ul').append(title);
         // call functions
         createkeywords();
         createDropDown();
@@ -59,6 +60,17 @@ function createDropDown() {
 }
 
 
+// handler for dropdown event
+$('select').on('change', displayPic);
+
+function displayPic() {
+  // hides all the images
+  $('img').hide();
+  let picked = $(this).val();
+  // displays all the picked images
+  $(`.${picked}`).show();
+  console.log(picked);
+}
 
 // console tests
 console.log(keywordArr);
