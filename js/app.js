@@ -9,11 +9,15 @@ $(document).ready(function(){
     cache: false,
     success: function(data) {
       data.forEach(picture => {
+
+        // make sure to chain the divs with the title and images
         let newPics = new constructor(picture);
-        let img = $(`<img src='${newPics.image}'>`).addClass(newPics.keyword);
-        let title = $(`<li>${newPics.title}</li>`).addClass(newPics.title);
-        $('ul').append(img);
-        $('ul').append(title);
+        let img = $(`<img src='${newPics.image}'>`);
+        let title = $(`<p>${newPics.title}</p>`).addClass(newPics.title);
+        let div = $(`<div class='${newPics.keyword}'></div>`);
+        $(div).append(img, title);
+        $('section').append(div);
+        // $('div').append(title);
         // call functions
         createkeywords();
         createDropDown();
@@ -65,7 +69,7 @@ $('select').on('change', displayPic);
 
 function displayPic() {
   // hides all the images
-  $('img').hide();
+  $('div').hide();
   let picked = $(this).val();
   // displays all the picked images
   $(`.${picked}`).show();

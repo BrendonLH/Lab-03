@@ -45,3 +45,5 @@ Start time: 6:30pm
 Finish time: 8:52
 
 Actual time needed to complete: 2hrs
+
+1. I got most of the features done, the only thing i didnt get done was some styling. The issue I had was getting the sort to display only the title when the images was also displyed. 

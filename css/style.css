@@ -1,10 +1,9 @@
-@import 'reset.css';
+@import url('./reset.css');
 
 
 
 img {
     width: 100px;
-    
 }
 
 nav {
@@ -13,4 +12,8 @@ nav {
     max-width: 100px;
     background-color: lightgray;
     margin: auto;
+}
+
+div {
+    float: left;
 }
