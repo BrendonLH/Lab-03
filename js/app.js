@@ -3,7 +3,7 @@
 //  get data using Ajax
 $(document).ready(function(){
   $.ajax({
-    url: '/data/page-01.json',
+    url: './data/page-01.json',
     dataType: 'json',
     type: 'get',
     cache: false,
@@ -54,7 +54,7 @@ function createDropDown() {
   // append the keywords to the dropdown option tag
   keywordArr.forEach(keyword => {
     let sort = $(`<option value=${keyword}>${keyword}</option>`);
-    select.append(sort); 
+    select.append(sort);
   });
 }
 
