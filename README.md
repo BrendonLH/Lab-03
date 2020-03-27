@@ -11,3 +11,36 @@ Lab-02 jquery selecotrs and events
 ## 3/25/2020 
 
  1. finished getting the images to display, also added the title to render underneath each picture. 
+
+ # Table of Contents
+ [Display images](###DisplayImages)
+ [Filter Images images](###FilterImages)
+
+
+
+### Display Images
+
+ Number and name of feature: Feature #1 Display Images
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 10:00
+
+Finish time: 11:30
+
+Actual time needed to complete: 1.5hrs
+
+1.  I had to pick some brains to get the jquery to append. I just used the append inside the forEach since i am already iterating through the objects
+
+
+### Filter Images
+
+ Number and name of feature: Feature 2 # Sort Images
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
