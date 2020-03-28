@@ -2,11 +2,13 @@
 @import url('./base.css');
 @import url('./layouts.css');
 @import url('./module.css');
+@import url('./theme.css');
 
 
 
 img {
-    width: 150px;
+    width: 250px;
+    height: 250px;
 }
 
 nav {
