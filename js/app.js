@@ -3,7 +3,7 @@
 //  get data using Ajax
 $(document).ready(function(){
   $.ajax({
-    url: '../data/page-01.json',
+    url: '/data/page-01.json',
     dataType: 'json',
     type: 'get',
     cache: false,
