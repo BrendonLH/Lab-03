@@ -1,9 +1,12 @@
 @import url('./reset.css');
+@import url('./base.css');
+@import url('./layouts.css');
+@import url('./module.css');
 
 
 
 img {
-    width: 100px;
+    width: 150px;
 }
 
 nav {
@@ -14,6 +17,3 @@ nav {
     margin: auto;
 }
 
-div {
-    float: left;
-}

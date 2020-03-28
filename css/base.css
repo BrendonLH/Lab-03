@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+div {
+    border: 10px solid beige;
+}
+
+h1 {
+    font-size: 50px;
+
+}

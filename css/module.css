@@ -1,0 +1,12 @@
+div {
+    display:inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+select {
+    display:block;
+    margin: 10px auto 0px auto;
+    font-family: 'Comic Neue', cursive;
+}
+ 
