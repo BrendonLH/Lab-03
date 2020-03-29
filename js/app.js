@@ -76,6 +76,14 @@ function displayPic() {
   console.log(picked);
 }
 
+
+
+// function fetchData(pageNUmber) {
+//   const options = {
+//     method:"get",
+//     dataType:"JSON",
+//   };
+// }
 // console tests
 console.log(keywordArr);
 console.log(animalArr);
