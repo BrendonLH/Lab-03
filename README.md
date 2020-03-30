@@ -8,6 +8,10 @@ Lab-02 jquery selecotrs and events
 2. As a user, I want to be able to filter the images so that I can view only images that match a keyword.
 3. As a user, I want a simple, clean looking UI so that my photo gallery clearly displays the images in a grid like pattern.
 
+## lab 3 MVP
+1. As a user, I want to have the ability to view additional images so that my view does not become cluttered.
+2. As a user, I want all of the images to be displayed in a consistent manner, so that it is easy to scan the collection of images.
+3. As a user, I want a simple, clean looking UI so that my photo gallery clearly displays the images.
 
 ## 3/25/2020 
 
