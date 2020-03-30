@@ -76,14 +76,19 @@ function displayPic() {
   console.log(picked);
 }
 
+$(document).ready(function(){
+  $('#pageOne').click(function(){
+    window.location.href = 'index.html';
+  });
+});
+
+$(document).ready(function(){
+  $('#pageTwo').click(function(){
+    window.location.href = 'horns.html';
+  });
+});
 
 
-// function fetchData(pageNUmber) {
-//   const options = {
-//     method:"get",
-//     dataType:"JSON",
-//   };
-// }
-// console tests
+
 console.log(keywordArr);
 console.log(animalArr);
