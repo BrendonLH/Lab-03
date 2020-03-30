@@ -14,6 +14,8 @@ $(document).ready(function(){
         let newPics = new constructor(picture);
         let img = $(`<img src='${newPics.image}'>`);
         let title = $(`<p>${newPics.title}</p>`).addClass(newPics.title);
+        let description = $(`<p>${newPics.description}</p>`).addClass(newPics.description);
+        let horns = $(`<p>${newPics.horns}</p>`).addClass(newPics.horns);
         let div = $(`<div class='${newPics.keyword}'></div>`);
         $(div).append(img, title);
         $('section').append(div);
@@ -76,15 +78,13 @@ function displayPic() {
   console.log(picked);
 }
 
+// handler for divs to display extra content
+$('div').on('change', displayDescription);
+function displayDescription() {
+  let picked = $(this).val();
+  $(`.${picked}`).hide();
+}
 
-
-// function fetchData(pageNUmber) {
-//   const options = {
-//     method:"get",
-//     dataType:"JSON",
-//   };
-// }
-// console tests
 
 // button function for pages
 
