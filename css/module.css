@@ -1,0 +1,23 @@
+div {
+    display:inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+select {
+    display:block;
+    margin: 10px auto;
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+    outline: none;
+    border-radius: 50px;
+}
+
+footer {
+    font-size: 1.5em;
+    margin: 30px 0;
+    text-decoration: none;
+}
+
+
+ 

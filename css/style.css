@@ -1,0 +1,21 @@
+/* @import url('reset.css');
+@import url('base.css');
+@import url('layouts.css');
+@import url('module.css');
+@import url('theme.css'); */
+
+
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+nav {
+    text-align: center;
+    border: 1px inset gray;
+    max-width: 100px;
+    background-color: lightgray;
+    margin: auto;
+}
+
