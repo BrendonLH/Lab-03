@@ -20,6 +20,7 @@ Lab-02 jquery selecotrs and events
  # Table of Contents
  [Display images](###DisplayImages)
  [Filter Images images](###FilterImages)
+ [Pagination](###Pagination)
 
 
 
@@ -51,3 +52,17 @@ Finish time: 8:52
 Actual time needed to complete: 2hrs
 
 1. I got most of the features done, the only thing i didnt get done was some styling. The issue I had was getting the sort to display only the title when the images was also displyed. 
+
+### Pagination
+
+Number and name of feature: #1 Pagination
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 9:00
+
+Finish time: 10:08
+
+Actual time needed to complete: 1hr 8 mins
+
+1. It would have taken me less time if i just made the early decision to make another page and link it the same way as i did with the other Json file. The button function worked out really good though. 

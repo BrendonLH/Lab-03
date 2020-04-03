@@ -1,14 +1,14 @@
-/* @import url('reset.css');
+@import url('reset.css');
 @import url('base.css');
 @import url('layouts.css');
 @import url('module.css');
-@import url('theme.css'); */
+@import url('theme.css');
 
 
 
 img {
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
 }
 
 nav {
