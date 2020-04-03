@@ -25,6 +25,8 @@ $(document).ready(function(){
     },
   });
 });
+
+let $template = $('#name-template').html();
 // empty arrays for storing info from objects
 let keywordArr = [];
 let animalArr = [];
